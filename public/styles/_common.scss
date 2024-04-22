@@ -1,0 +1,43 @@
+@tailwind components;
+
+@layer components{
+    .cpm {
+        @apply px-4 py-6 sm:px-8 sm:py-12;
+    }
+
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+    }
+
+    #particles-js {
+        // border-top: 1px solid #fff;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #000 !important;  
+        z-index: -1000;
+      }
+
+
+      @keyframes slide {
+        from{
+            transform: translateX(0);
+        }
+        to{
+            transform: translateX(-100%);
+        }
+      }
+      .logos{
+        overflow: hidden;
+        white-space: nowrap;
+      }
+
+      .logos-slide{
+        display: inline-block;
+        width: 100vw;
+        animation: 5s slide infinite linear;
+      }
+}
