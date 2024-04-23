@@ -30,7 +30,7 @@ const Banner = () => {
             <Container styles="border-b-4 border-yellow-400">
                 <div className="grid grid-cols-12">
                     <div className="col-span-12 md:col-span-7 my-auto">
-                        <h1 className="text-white text-5xl mb-6">Hey there, <br /><span className="text-yellow-400 font-bold break-keep">I'm Sarthak</span></h1>
+                        <h1 className="text-white text-5xl mb-6">Hey there, <br /><span className="text-yellow-400 font-bold break-keep">I&apos;m Sarthak</span></h1>
                         <div className="text-white">
                            <p className="tracking-widest font-thin text-gray-200">With a keen eye for design and a love of crafting user journeys, I breathe life into pixels, transforming them into interactive interfaces that are both beautiful and intuitive.</p>
                         </div>
@@ -41,7 +41,7 @@ const Banner = () => {
                 </div>
             </Container>
             <Container>
-                <h2 className="text-gray-500 opacity-50 ms-1 text-6xl font-bold tracking-wider">I'm a</h2>
+                <h2 className="text-gray-500 opacity-50 ms-1 text-6xl font-bold tracking-wider">I&apos;m a</h2>
                 <div className="scroller-div h-44 overflow-y-scroll no-scrollbar">
                         <motion.h2 className="text-8xl lg:text-9xl lg:mb-12 mb-20 text-gray-500 opacity-50 font-bold break-all">DEVELOPER</motion.h2>                
                         <motion.h2 className="text-8xl lg:text-9xl lg:mb-12 mb-20 text-gray-500 opacity-50 font-bold break-all">DESIGNER</motion.h2>
