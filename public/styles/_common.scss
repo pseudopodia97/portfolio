@@ -40,4 +40,9 @@
         width: 100vw;
         animation: 5s slide infinite linear;
       }
+
+      .exp-txt{
+        writing-mode: vertical-rl;
+        text-orientation:sideways;
+      }
 }
