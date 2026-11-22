@@ -11,7 +11,7 @@ const myExperiences = [
       "Cut the main app's initial bundle by 57% and set CI performance budgets.",
     ],
     duration: "Nov 2024 - Present",
-    location: "Pune",
+    location: "Remote · Sydney, AU",
   },
   {
     org: "Gojoko Technologies",
