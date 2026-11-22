@@ -2,6 +2,18 @@ import Container from "./Container";
 
 const myExperiences = [
   {
+    org: "iluminr",
+    role: "Senior Frontend Developer",
+    skills: ["Angular", "React", "Next.js", "TypeScript", "Micro-frontends", "Playwright", "AI agents", "Grafana Faro", "AWS"],
+    highlights: [
+      "Own the sprint release across three regions, including hotfixes and client-facing root-cause analyses.",
+      "Built AI agents and a spec-driven AI workflow with mandatory tests per MR.",
+      "Cut the main app's initial bundle by 57% and set CI performance budgets.",
+    ],
+    duration: "Nov 2024 - Present",
+    location: "Pune",
+  },
+  {
     org: "Gojoko Technologies",
     role: "Senior Frontend Developer",
     skills: [
@@ -15,12 +27,12 @@ const myExperiences = [
       "Lightning Web Components (Salesforce)",
       "Content Management System",
     ],
-    duration: "May 2022 - Present",
+    duration: "May 2022 - Oct 2024",
     location: "Noida",
   },
   {
     org: "IBM India Pvt. Ltd.",
-    role: "Frontend Developer",
+    role: "Application Developer",
     skills: ["Angular 8", "SQL", "Git", "CRM Tool", "Java", "Spring Boot"],
     duration: "June 2019 - April 2022",
     location: "Mumbai",
@@ -32,7 +44,7 @@ const MyExperience = () => {
 		<div className="bg-black">
     <Container>
       <h2 className="text-6xl text-gray-300 font-bold w-fit mb-4">My <br />Experience</h2>
-			<p className="text-gray-300 mb-8">For the past 5 years, I&apos;ve honed my skills as a Software Development Engineer specializing in front-end development. My experience lies primarily within the FinTech and banking sectors, building user-facing applications for clients in these domains. I&apos;m proficient in industry-standard technologies like Angular, Next.js, AWS cloud services, Git version control, CRM systems, and Tailwind CSS for rapid UI development. This experience equips me to seamlessly integrate into your front-end development team and contribute effectively to your projects.</p>
+			<p className="text-gray-300 mb-8">For 7+ years I&apos;ve built frontend products across SaaS, FinTech and banking, from an early-stage startup to IBM. Today I lead frontend work on a micro-frontend platform (Angular shell with React micro-frontends) and build AI agents and guardrails that help a small team ship quickly without breaking production.</p>
 			<div className="mb-6">
 				{myExperiences.map((exp) => {
 					return (
@@ -44,6 +56,12 @@ const MyExperience = () => {
 								<p className="text-white font-bold text-gray-300 text-2xl">{exp.org}</p>
 								<p className="text-yellow-400">{exp.duration}</p>
 							</div>
+							<p className="text-gray-400 -mt-3 mb-4">{exp.role} &middot; {exp.location}</p>
+							{exp.highlights && (
+								<ul className="text-gray-300 list-disc ms-5 mb-4 space-y-1">
+									{exp.highlights.map((h) => <li key={h}>{h}</li>)}
+								</ul>
+							)}
 							<div className="w-full sm:w-3/4 flex flex-wrap gap-4 gap-y-2 bg-black">
 								{exp.skills.map((skill) => {
 									return (

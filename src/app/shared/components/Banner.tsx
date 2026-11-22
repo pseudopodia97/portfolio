@@ -31,7 +31,7 @@ const Banner = () => {
                     <div className="col-span-12 md:col-span-7 my-auto">
                         <h1 className="text-white text-5xl mb-6">Hey there, <br /><span className="text-yellow-400 font-bold break-keep">I&apos;m Sarthak</span></h1>
                         <div className="text-white">
-                           <p className="tracking-widest font-thin text-gray-200">With a keen eye for design and a love of crafting user journeys, I breathe life into pixels, transforming them into interactive interfaces that are both beautiful and intuitive.</p>
+                           <p className="tracking-widest font-thin text-gray-200">Senior Frontend Engineer with 7+ years of building fast, accessible React, Next.js and Angular products, and the AI agents and quality guardrails that help teams ship them safely.</p>
                         </div>
                     </div>
                     <div className="col-span-12 md:col-span-5">
@@ -44,8 +44,8 @@ const Banner = () => {
                 <div className="relative">
                     <div id="scroller-div" className="scroller-div h-32 sm:h-48 lg:h-64 overflow-y-scroll no-scrollbar">
                             <h2 id="Developer" className="text-6xl sm:text-8xl lg:text-9xl h-32 sm:h-48 lg:h-64 text-gray-500 opacity-50 font-bold break-all">DEVELOPER</h2>                
+                            <h2 id="AIBuilder" className="text-6xl sm:text-8xl lg:text-9xl h-32 sm:h-48 lg:h-64 text-gray-500 opacity-50 font-bold break-all">AI BUILDER</h2>
                             <h2 id="Designer" className="text-6xl sm:text-8xl lg:text-9xl h-32 sm:h-48 lg:h-64 text-gray-500 opacity-50 font-bold break-all">DESIGNER</h2>
-                            <h2 id="Photographer" className="text-6xl sm:text-8xl lg:text-9xl h-32 sm:h-48 lg:h-64 text-gray-500 opacity-50 font-bold break-all">PHOTOGRAPHER</h2>
                     </div>
                     <div className="h-32 sm:h-48 lg:h-64 absolute bottom-0 inset-x-0 bg-gradient-to-b from-transparent from-30% to-black"></div>
                 </div>
