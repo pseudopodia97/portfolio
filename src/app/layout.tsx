@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Sarthak Chitade",
-  description: "Hire a skilled web developer! Browse Sarthak Chitade's portfolio for creative & functional website design & development. Contact me today!",
+  description: "Sarthak Chitade, Senior Frontend Engineer in Pune. React, Next.js, Angular and TypeScript, micro-frontends, web performance and AI agents for engineering workflows.",
 };
 
 export default function RootLayout({

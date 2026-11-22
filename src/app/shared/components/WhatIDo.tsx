@@ -7,7 +7,7 @@ const WhatIDo = () => {
 			<Container>
 				<div className="my-24">
 					<h2 className="text-3xl w-full mx-auto text-center text-yellow-400 font-bold mb-8">
-						Tools and Technologies <br /> Im good at
+						Tools and Technologies <br /> I&apos;m good at
 					</h2>
 					<div className="flex flex-wrap justify-center w-full sm:w-1/2 mx-auto gap-6">
 						<Image src="/javascript.svg" alt="icon" height="50" width="50"></Image>
